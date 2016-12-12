@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
+
+    /*五角星评价系统*/
     private double number = 9.0; //后台返回的评价的分数
     private double totalNumber = 10.0;//总的分数
     private LinearLayout ll_proportion;//需要设置的长度
@@ -23,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         ll_proportion = (LinearLayout) findViewById(R.id.ll_proportion);
         ll_with_blank = (LinearLayout) findViewById(R.id.ll_with_blank);
         setPropertion(number);
-
 
     }
 
